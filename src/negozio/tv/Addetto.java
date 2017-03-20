@@ -29,7 +29,8 @@ public class Addetto {
             System.out.println(televisori.get(i).getName()+" "+ stato + " " + televisori.get(i).getFunz());
             int suoCanale=televisori.get(i).getCanale();
             System.out.println("Suo canale = "+ suoCanale);
-//            televisori.get(i).setCanale();
+            televisori.get(i).setCanale();
+            System.out.println("Ora il suo canale è "+televisori.get(i).getCanale());
         }
     }
 }
