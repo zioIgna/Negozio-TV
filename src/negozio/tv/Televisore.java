@@ -40,8 +40,8 @@ public class Televisore {
         acceso=!acceso;
     }
 
-    void setCanale() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+//    void setCanale() {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
         
 }
