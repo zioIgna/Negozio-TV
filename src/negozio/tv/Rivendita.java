@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author ignaz
  */
 public class Rivendita {
-    private ArrayList<Televisore> televisori = new ArrayList<>();
+    private ArrayList<ITelevisore> televisori = new ArrayList<>();
     
     
     public Rivendita(){
@@ -22,7 +22,7 @@ public class Rivendita {
         televisori.add(new TelevisoreMarca3("TV3"));
     }
 
-    public ArrayList<Televisore> getTelevisori(){
+    public ArrayList<ITelevisore> getTelevisori(){
         return televisori;
     }
 

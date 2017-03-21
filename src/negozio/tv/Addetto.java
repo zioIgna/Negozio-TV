@@ -18,7 +18,7 @@ public class Addetto {
         NomeAddetto = nome;
     }
     
-    public void apriNegozio(ArrayList<Televisore> televisori){
+    public void apriNegozio(ArrayList<ITelevisore> televisori){
         for(int i=0; i<televisori.size(); i++){
             televisori.get(i).setStato();
             String stato;

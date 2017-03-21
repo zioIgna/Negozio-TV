@@ -9,7 +9,7 @@ package negozio.tv;
  *
  * @author ignaz
  */
-public class Televisore {
+public abstract class Televisore {
     private String nome;            
     protected String funzionalità = "Non impostata";
     protected boolean acceso = false;
@@ -40,8 +40,5 @@ public class Televisore {
         acceso=!acceso;
     }
 
-//    void setCanale() {
-//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-//    }
         
 }
